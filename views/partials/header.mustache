@@ -3,13 +3,13 @@
 		<div id="wrap_header" >
 			<!-- Logo -->		
 			<div class="logo col_header">
-				<a href="index.html"><img alt="logo-deli" src="images/icons/logo.png"></a>
+				<a href="/"><img alt="logo-deli" src="{{env.NAV_LOGO}}"></a>
 			</div>
 			<!-- Menu -->
 			<div class="main_nav">
 				<nav class="menu col_header">
 					<ul class="main_menu">
-						<li><a href="index.html">Home</a>
+						{{! <li><a href="index.html">Home</a>
 							<ul class="sub_menu">
 								<li><a href="index.html">Homepage</a></li>
 								<li><a href="home-boxed.html">Homepage Boxed</a></li>
@@ -49,8 +49,12 @@
 								<li><a href="blog-mansory.html">Blog Mansory</a></li>
 								<li><a href="blog-detail.html">Blog Detail</a></li>
 							</ul>
-						</li>
-						<li><a href="contact-us.html">Contact</a></li>
+						</li> }}
+						<li><a href="/">Home</a></li>
+						<li><a href="/">About</a></li>
+						<li><a href="/">Menu</a></li>
+						<li><a href="/">Gallery</a></li>
+						<li><a href="/">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -58,9 +62,10 @@
 			<!-- Socials -->
 			<div class="icon-header col_header">
 				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
 				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-yelp" aria-hidden="true"></i></a>
+				{{! <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a> }}
+				
 			</div>
 		</div>
 
@@ -69,7 +74,7 @@
 		
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="index.html"><img alt="logo-deli" src="images/icons/logo-mobile.png"></a>
+				<a href="/"><img alt="logo-deli" src="images/icons/logo-mobile.png"></a>
 			</div>
 
 			<!-- Button show menu -->
@@ -86,7 +91,7 @@
 		<div class="wrap-side-menu" >
 			<nav class="side-menu">
 				<ul class="main-menu">
-					<li>
+					{{! <li>
 						<a href="index.html">Home</a>
 						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 						<ul class="sub-menu">
@@ -138,10 +143,13 @@
 							<li><a href="blog-mansory.html">Blog Mansory</a></li>
 							<li><a href="blog-detail.html">Blog Detail</a></li>
 						</ul>
-					</li>
-					<li>
-						<a href="contact-us.html">Contact</a>
-					</li>
+					</li> }}
+					<li><a href="/">Home</a></li>
+					<li><a href="/">About</a></li>
+					<li><a href="/">Menu</a></li>
+					<li><a href="/">Gallery</a></li>
+					<li><a href="/">Contact</a></li>
+					
 				</ul>
 			</nav>
 		</div>

@@ -6,8 +6,10 @@ const router = vertex.router()
 /*  This is the home route. It renders the index.mustache page from the views directory.
 	Data is rendered using the Mustache templating engine. For more
 	information, view here: https://mustache.github.io/#demo */
-router.get('/', (req, res) => {
+
+	router.get('/', (req, res) => {
 	const data = {
+		env: process.env,
 		cdn: process.env.TURBO_CDN,
 		greeting: "Welcome to my Restaurant!",
 		description: "This is a great palce for business meetings"

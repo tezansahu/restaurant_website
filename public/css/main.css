@@ -959,7 +959,7 @@ iframe {
 /*=================================================================== Reservation ===*/
 
 .parallax-banner-2 {
-	background-image: url("/images/banner-home-page-02.jpg");
+	background-image: url("./images/banner-home-page-02.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
